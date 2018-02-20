@@ -1,2 +1,21 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-sm-1 col-sm-offset-10">
+                <h1 class="display-3 text-center">ubXtm</h1>
+            </div>
+
+
+            <form action="/">
+                <div class="form-group">
+                    <p><input type="text" class="form-control col-md-4" id="locationInput" placeholder="Enter location here" required="required"/></p>
+                    <button type="button" class="btn btn-success" id="goGetLocation">Go</button>
+                    <button type="button" class="btn btn-info" id="getLocation">Get My Location</button>
+                    <div id="map"></div>
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
